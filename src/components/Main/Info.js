@@ -9,7 +9,7 @@ export default function Info(props) {
             <div class="col-lg-4 info_box_col">
               <div class="info_box">
                 <div class="info_image">
-                  <img src="health/images/info_1.jpg" alt="" />
+                  <img src="assets/images/info_1.jpg" alt="" />
                 </div>
                 <div class="info_content">
                   <div class="info_title">Free Consultations</div>
@@ -30,7 +30,7 @@ export default function Info(props) {
             <div class="col-lg-4 info_box_col">
               <div class="info_box">
                 <div class="info_image">
-                  <img src="health/images/info_2.jpg" alt="" />
+                  <img src="assets/images/info_2.jpg" alt="" />
                 </div>
                 <div class="info_content">
                   <div class="info_title">Emergency Care</div>
@@ -84,7 +84,7 @@ export default function Info(props) {
         <div
           class="parallax_background parallax-window"
           data-parallax="scroll"
-          data-image-src="health/images/cta_1.jpg"
+          data-image-src="assets/images/cta_1.jpg"
           data-speed="0.8"
         ></div>
         <div class="container">

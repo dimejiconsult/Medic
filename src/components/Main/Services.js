@@ -15,7 +15,7 @@ export default function Services(props) {
             <div class="icon_box">
               <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
                 <div class="icon_box_icon">
-                  <img src="health/images/icon_1.svg" alt="" />
+                  <img src="assets/images/icon_1.svg" alt="" />
                 </div>
                 <div class="icon_box_title">Cardiology</div>
               </div>
@@ -30,7 +30,7 @@ export default function Services(props) {
             <div class="icon_box">
               <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
                 <div class="icon_box_icon">
-                  <img src="health/images/icon_2.svg" alt="" />
+                  <img src="assets/images/icon_2.svg" alt="" />
                 </div>
                 <div class="icon_box_title">Gastroenterology</div>
               </div>
@@ -45,7 +45,7 @@ export default function Services(props) {
             <div class="icon_box">
               <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
                 <div class="icon_box_icon">
-                  <img src="health/images/icon_3.svg" alt="" />
+                  <img src="assets/images/icon_3.svg" alt="" />
                 </div>
                 <div class="icon_box_title">Medical Lab</div>
               </div>
@@ -60,7 +60,7 @@ export default function Services(props) {
             <div class="icon_box">
               <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
                 <div class="icon_box_icon">
-                  <img src="health/images/icon_4.svg" alt="" />
+                  <img src="assets/images/icon_4.svg" alt="" />
                 </div>
                 <div class="icon_box_title">Dental Care</div>
               </div>
@@ -75,7 +75,7 @@ export default function Services(props) {
             <div class="icon_box">
               <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
                 <div class="icon_box_icon">
-                  <img src="health/images/icon_5.svg" alt="" />
+                  <img src="assets/images/icon_5.svg" alt="" />
                 </div>
                 <div class="icon_box_title">Surgery</div>
               </div>
@@ -90,7 +90,7 @@ export default function Services(props) {
             <div class="icon_box">
               <div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
                 <div class="icon_box_icon">
-                  <img src="health/images/icon_6.svg" alt="" />
+                  <img src="assets/images/icon_6.svg" alt="" />
                 </div>
                 <div class="icon_box_title">Neurology</div>
               </div>
@@ -104,7 +104,7 @@ export default function Services(props) {
         <div class="row">
           <div class="col">
             <div class="button services_button ml-auto mr-auto">
-              <a href="#">
+              <a href="/">
                 <span>read more</span>
                 <span>read more</span>
               </a>

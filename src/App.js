@@ -1,28 +1,26 @@
-import React from 'react';
-import {Route, Switch} from 'react-router-dom';
-import Layout from './components/Layout/Layout';
-import LoginLayout from './components/Dashboard/LoginLayout';
-import MainApp from './components/Main/MainApp';
-import Login from './components/Dashboard/Login';
-import Register from './components/Dashboard/Register';
+import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import AuthLayout from './components/layouts/AuthLayout'
+import HomeLayout from './components/layouts/HomeLayout'
+import './components/layouts/styles.css'
+import {Dashboard} from './components/dashboard/Dashboard'
+class App extends React.Component {
 
+    render(){
 
+      return(
+        <div className="App">
+          <BrowserRouter>
+            <Switch>
+              <Route exact path="/" render={(props) => <HomeLayout {...props} /> } />
+              <Route path='/login-signup' render={(props) => <AuthLayout {...props} /> } />
+              <Route path='/dashboard' render={(props) => <Dashboard {...props} /> } />
+            </Switch>
+          </BrowserRouter>
+        </div>
+      )
+   }
 
-function App(match) {
-  return (
-    <>
-      <Switch>
-        <LoginLayout>
-          <Route path='/login' component={Login} />
-          <Route path='/register'component={Register} />
-        </LoginLayout>
-        <Layout>
-          <Route exact={true} path='/' component={MainApp} />
-        </Layout>
-      </Switch>
-    </>
+ }
 
-  );
-}
-
-export default App;
+export default App

@@ -5,7 +5,7 @@ import Faq from './Faq'
 import Department from './Department'
 import Banner from './Banner'
 
-export default function MainApp() {
+export default function MainApp(props) {
     return (
         <div>
             <Banner />

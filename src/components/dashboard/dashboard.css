@@ -1,0 +1,198 @@
+.dash-container {
+    display: flex;
+    width: 1700px;
+    justify-content: center;
+    align-items: center;
+   background-color: whitesmoke;
+}
+.dash-header {
+    height: 45px;
+    width: 1548px;
+    padding: 10px 16px;
+    background: #32c69a;
+    color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    margin-left: 400px;
+    width: 100%
+}
+.slide_header {
+    background: #32c69a;
+    color: #f1f1f1;
+    margin-left: -260px;
+    top: 0;
+    display: block;
+    padding-top: 20px;
+    align-content: center;
+    text-align: center;
+    position: fixed;
+    height:120px;
+    width: 250px;
+    z-index: 4;
+}
+.head {
+    margin-top: -15px;  
+}
+.head img{
+    border-radius: 50%;
+}
+.sidebar {
+    height: 800px;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin-top: 65px;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 16px;
+  box-sizing: border-box;
+  border-right: 1px solid #f1f1f1;
+  box-shadow: rgba(169, 169, 169, 0.35) 0px 20px 60px 0px;
+}
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    margin-top: 50px;
+  }
+  .first_slide_item {
+      margin-top:50px;
+  }
+  .content_div {
+      height: 100%;
+      width: 1400px;
+      margin: 130px 0 0 200px;
+  }
+ /* Page content */
+  .content {
+    margin-right: 50px;
+    margin-top: -40px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 1400px;
+    height: 500px;
+    box-sizing: border-box;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+  }
+  The sticky class is added to the navbar with JS when it reaches its scroll position
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    margin-top:500px;
+    max-width: 1500px;
+  }
+  .title {
+      padding-top: 20px;
+      margin-left: 50px;
+      font-size: 20px;
+      border-bottom: 2px solid whitesmoke;
+      padding-bottom: 20px;
+  }
+  .sub_title {
+      color: tomato;
+      font-size: 30px;
+      margin-left: 500px;
+  }
+  .reg_info {
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: lighter;
+  }
+  .reg_info2{
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: -70px;
+    font-weight: lighter;
+  }
+  .form_firstname {
+    width: 400px;
+    display:block;
+    padding: px 0 0 1px;
+}
+.firstname {
+
+    margin-left: 20px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.form_firstname input{
+    width: 550px;
+    height:38px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    outline: none;
+}
+.form_gender {
+    width: 400px;
+    display:block;
+}
+.gender {
+    margin-left: 20px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.form_gender select{
+    width: 550px;
+    height:38px;
+    margin-left: 20px;
+    background-color: whitesmoke;
+    outline: none;
+}
+.form_lastname {
+    width: 400px;
+    display:block;
+}
+.lastname {
+    margin-left: 650px;
+    margin-top: -190px;
+    padding-bottom: 10px;
+    width: 800px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.form_lastname input{
+    width: 550px;
+    height:38px;
+    margin-left: 650px;
+    background-color: whitesmoke;
+    outline: none;
+}
+.footer {
+    height: 46px;
+    width: 1450px;
+    background-color: #32c69a;
+    margin: 20px 20px 0 0px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+    color: white;
+    margin-top: 100px;
+}
+.sticky+footer {
+    position: fixed;
+    top: 0;
+}
+
+
+
+
+  
+  

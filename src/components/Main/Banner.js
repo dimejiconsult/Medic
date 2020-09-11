@@ -5,7 +5,7 @@ export default function Banner() {
         <div className="home">
              <div
         class="background_image"
-        style={{ backgroundImage: "url(health/images/index_hero.jpg)" }}
+        style={{ backgroundImage: "url(assets/images/index_hero.jpg)" }}
       ></div>
       
       <div class="home_container">
