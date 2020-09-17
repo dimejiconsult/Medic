@@ -1,8 +1,6 @@
 import React from 'react'
 import Services from './Services'
-import Info from './Info'
-import Faq from './Faq'
-import Department from './Department'
+import Search from './Search'
 import Banner from './Banner'
 
 export default function MainApp(props) {
@@ -10,9 +8,7 @@ export default function MainApp(props) {
         <div>
             <Banner />
             <Services/>
-            <Department />
-            <Info />
-            <Faq />
+            <Search />
         </div>
     )
 }

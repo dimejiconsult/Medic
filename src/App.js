@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import AuthLayout from './components/layouts/AuthLayout'
 import HomeLayout from './components/layouts/HomeLayout'
 import './components/layouts/styles.css'
-import {Dashboard} from './components/dashboard/Dashboard'
+import DashboardLayout from './components/layouts/DashboardLayout'
 class App extends React.Component {
 
     render(){
@@ -14,7 +14,7 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" render={(props) => <HomeLayout {...props} /> } />
               <Route path='/login-signup' render={(props) => <AuthLayout {...props} /> } />
-              <Route path='/dashboard' render={(props) => <Dashboard {...props} /> } />
+              <Route path='/dashboard' render={(props) => <DashboardLayout {...props} /> } />
             </Switch>
           </BrowserRouter>
         </div>

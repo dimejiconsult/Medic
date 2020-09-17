@@ -1121,24 +1121,13 @@ select:focus > option:checked {
 9. Search DropDown
 *********************************/
 
-.select_search
-{
-	width: 100%;
-	background: #FFFFFF;
-	padding-top: 99px;
-	padding-bottom: 52px;
-	background-color: #32c69a;
-	justify-content: center;
+.search p{
+	font-size: 30px;
+	font-weight: 600;
+	color: #000000;
+	line-height: 1.2;
 	text-align: center;
-}
-
-.select_search_title h4
-{
-	font-size: 60px;
-	font-weight: 700;
-	color: #ffffff;
-	line-height: 81px;
-	font-family:'Montserrat', sans-serif; 
+	margin-left: 50px;
 }
 
 .select_drop {
@@ -1177,23 +1166,7 @@ select.input-lg {
 	background-color: #fff;
 	padding-right: 5px;
   }
-  .select_btn button{
-	width: 400px;
-	height: 2.5rem;
-	outline: none;
-	border-top-right-radius: 50px;
-	border-top-left-radius: 50px;
-	border-bottom-right-radius: 50px;
-	border-bottom-left-radius: 50px;
-	margin-top: 15px;
-	padding: 4px 28px 4px 12px;
-	background-image: linear-gradient(to right,rgb(65, 219, 60),#10916a);
-    border: 1px solid #32c69a;
-    color: #000000;
-	font-size: 25px;
-	cursor: pointer;
-  }
-/*********************************
+/******************************
 10. FAQ
 *********************************/
 

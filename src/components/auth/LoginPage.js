@@ -1,11 +1,16 @@
 import React from 'react';
+import {Redirect} from 'react-router-dom';
 
-const onSubmit = () => {
-  this.props.history.push('/dashboard')
-}
 
-export const LoginPage = () => {
 
+export class LoginPage extends React.Component {
+
+
+  render(){
+    const onSubmit = () => {
+      this.props.history.push("/dashboard");
+    }
+  
     return (
       <>
         <div class="login_container">
@@ -30,15 +35,16 @@ export const LoginPage = () => {
                 <input name="password" type="password" required />
             </div>
             <div class="login_button">
-            <button  onClick={onSubmit}>LOGIN</button>
+            <button  onClick={onSubmit} type="submit">LOGIN</button>
             </div>
             <div className='login_note'>
               <p> <a href="/" target="_blank">forget your password?</a></p> 
-              <p class="account">Need an account? <a href="/" target="_blank">Sign up</a></p> 
+              <p class="account">Need an account? <a href="/register" target="_blank">Sign up</a></p> 
             </div>
             </form>
         </div>
         <footer className='Login_layout_footer'>DimejiConsult @ 2020</footer>
         </>
     )
+}
 }

@@ -38,7 +38,7 @@ export const Header =() =>{
 							<div class="col">
 								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
 									<div class="logo">
-										<a href="#">health<span>+</span></a>	
+										<a href="#"><img  src='assets/images/logo.jpg' height='100px' width='150px'/></a>	
 									</div>
 									<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
 										<div class="header_top_nav">
@@ -73,7 +73,7 @@ export const Header =() =>{
 													<li><a href="services.html">Services</a></li>
 													<li><a href="news.html">News</a></li>
 													<li><a href="/dashboard">Dashboard</a></li>
-													<li><Link to='/login-signup/register' href="contact.html">Register</Link></li>
+													<li><Link to='/login-signup' href="contact.html">Login</Link></li>
 												</ul>
 											</nav>
 											<div class="search_content d-flex flex-row align-items-center justify-content-end ml-auto">

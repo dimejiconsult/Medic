@@ -1,7 +1,7 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 import {Header} from "../header/Header";
-import Footer from "../footer/Footer";
+import FooterTop from "../Main/FooterTop";
 import MainApp from "../Main/MainApp";
 
 export default function HomeLayout(props) {
@@ -10,12 +10,12 @@ export default function HomeLayout(props) {
         <div className="App">
       <div class="super_container">
         <Header />
+          <FooterTop />
         <Switch>
           <Route 
             exact path={`${match.path}`}
               render={(props) => <MainApp {...props} /> }/>
           </Switch>
-        <Footer />
       </div>
     </div>
     )

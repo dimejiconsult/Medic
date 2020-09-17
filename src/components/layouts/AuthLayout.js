@@ -17,7 +17,7 @@ class AuthLayout extends React.Component {
                     <Route 
                         exact path={`${match.path}`}
                         render={(props) => <LoginPage {...props} /> }/>
-            <div className="layout">
+                  <div className="layout">
                     <Route path={`${match.path}/register`} component={PatientReg} />
                     <Route path={`${match.path}/doctor`} component={DoctorReg} />
                     <Route path={`${match.path}/company`} component={CompanyReg} />
