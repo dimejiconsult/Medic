@@ -14,11 +14,6 @@ export default function FooterTop() {
           <div class="row">
             <div class="col-lg-3 footer_col">
               <div class="footer_about">
-                <div class="logo">
-                  <a href="#">
-                    health<span>+</span>
-                  </a>
-                </div>
                 <div class="footer_about_text">
                   Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing elit. Donec
                   malesuada lorem maximus mauris.
@@ -62,38 +57,8 @@ export default function FooterTop() {
                   rights reserved | Designed with
                   <i class="fa fa-heart-o" aria-hidden="true"></i> by{" "}
                   <a href="https://hudehtech.com" target="_blank">
-                    Hudehtech Solutions
+                    with <i class='fa fa-heart-o'></>
                   </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-5 footer_col">
-              <div class="footer_contact">
-                <div class="footer_contact_title">Quick Contact</div>
-                <div class="footer_contact_form_container">
-                  <form action="#" class="footer_contact_form" id="footer_contact_form">
-                    <div class="d-flex flex-xl-row flex-column align-items-center justify-content-between">
-                      <input
-                        type="text"
-                        class="footer_contact_input"
-                        placeholder="Name"
-                        required="required"
-                      />
-                      <input
-                        type="email"
-                        class="footer_contact_input"
-                        placeholder="E-mail"
-                        required="required"
-                      />
-                    </div>
-                    <textarea
-                      class="footer_contact_input footer_contact_textarea"
-                      placeholder="Message"
-                      required="required"
-                    ></textarea>
-                    <button class="footer_contact_button">send message</button>
-                  </form>
                 </div>
               </div>
             </div>
