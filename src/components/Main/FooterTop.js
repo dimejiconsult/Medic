@@ -3,12 +3,6 @@ import React from 'react'
 export default function FooterTop() {
     return (
         <>
-        {/* <div
-        class="parallax_background parallax-window"
-        data-parallax="scroll"
-        data-image-src="assets/images/footer.jpg"
-        data-speed="0.8"
-      ></div> */}
       <div class="footer_content">
         <div class="container">
           <div class="row">

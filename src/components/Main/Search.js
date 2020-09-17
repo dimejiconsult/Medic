@@ -16,10 +16,10 @@ export default function Search() {
           <div class="form_group">
             <select class="form-control input-lg">
               <option value="" selected disabled hidden>
-                Option 1
+                Cardiology
               </option>
-              <option value="option-2">Option 2</option>
-              <option value="option-3">Option 3</option>
+              <option value="option-2">Gastroenterology</option>
+              <option value="option-3">Neurology</option>
             </select>
             <i class="fa fa-chevron-down"></i>
           </div>
