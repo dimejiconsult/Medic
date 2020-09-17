@@ -10,12 +10,12 @@ export default function HomeLayout(props) {
         <div className="App">
       <div class="super_container">
         <Header />
-          <FooterTop />
         <Switch>
           <Route 
             exact path={`${match.path}`}
               render={(props) => <MainApp {...props} /> }/>
           </Switch>
+          <FooterTop />
       </div>
     </div>
     )
