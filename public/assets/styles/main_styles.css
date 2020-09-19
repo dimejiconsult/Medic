@@ -1438,14 +1438,18 @@ select.input-lg {
 12. Footer
 *********************************/
 
-.footer
+.footers
 {
-	display: block;
-	position: relative;
 	width: 100%;
-	padding-top: 64px;
+	height: 40px;
+	text-align: center;
+	 background-color: #32c69a; 
+	margin: 50px 0 0 0;
 }
-.footer_content
+.footers p{
+	color: #FFFFFF;
+}
+/* .footer_content
 {
 	margin: 100px;
 }
@@ -1668,4 +1672,4 @@ select.input-lg {
 	vertical-align: middle;
 	font-size: 20px;
 	color: #32c69a;
-}
+} */

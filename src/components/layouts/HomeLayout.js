@@ -1,7 +1,6 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 import {Header} from "../header/Header";
-import FooterTop from "../Main/FooterTop";
 import MainApp from "../Main/MainApp";
 
 export default function HomeLayout(props) {
@@ -15,7 +14,6 @@ export default function HomeLayout(props) {
             exact path={`${match.path}`}
               render={(props) => <MainApp {...props} /> }/>
           </Switch>
-          <FooterTop />
       </div>
     </div>
     )

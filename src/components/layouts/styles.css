@@ -245,7 +245,7 @@
     margin: 0px 0px 20px 10px; 
     justify-content: center;
     align-items: center;
-    height: 130vh;
+    height: 160vh;
     width: 1500px;
 }
 .layout input{
@@ -282,13 +282,13 @@
     align-items: center;
     display: block;
     width:900px;
-    height: 100vh;
-    margin:30px 0 0 90px;
+    height: 160vh;
+    margin:20px 0 0 90px;
   
 }
 .doctor_form_info{
     display: flex;
-    height: 160vh;
+    height: 130vh;
     background-color: white;
     box-sizing: border-box;
     box-shadow: rgba(169, 169, 169, 0.35) 0px 20px 60px 0px;

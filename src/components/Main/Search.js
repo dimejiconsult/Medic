@@ -10,7 +10,7 @@ export default function Search() {
       ></div>
       <div>
         <div className='select_search_title'>
-        Make an appointment with one of our professional Doctors.
+        Feeling Sick?. Make an appointment with one of our professional Doctors.
         </div>
         <div class="select_drop">
           <div class="form_group">
